@@ -40,6 +40,5 @@
         <activity
             android:name=".ui.registration.RegistrationActivity"
             android:parentActivityName=".ui.LoginActivity" />
-
     </application>
 </manifest>
