@@ -86,7 +86,7 @@ class AttendanceActivity : AbsLocation() {
     }
 
     // Pesan tidak ada sensor sidik jari
-    private fun biometricErrorNoHardware() =e
+    private fun biometricErrorNoHardware() =
         Toast.makeText(
             this@AttendanceActivity,
             getString(R.string.txt_no_biometric_hardware), Toast.LENGTH_SHORT).show()
