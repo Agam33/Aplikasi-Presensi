@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:keep="@layout/activity_profile">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:background="@drawable/bg_top_profile"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center"
+            android:layout_marginTop="-80dp"
+            android:id="@+id/img_profile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/person_001"
+            tools:layout_editor_absoluteY="155dp" />
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_marginTop="-30dp"
+            android:layout_marginStart="12dp"
+            android:text="@string/txt_sample_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:backgroundTint="@color/yellow_500"
+            android:layout_margin="8dp"
+            android:id="@+id/edt_name"
+            android:hint="@string/txt_sample_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:enabled="false"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/yellow_500"
+            android:id="@+id/edt_email"
+            android:hint="@string/txt_sample_email"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:enabled="false"
+            android:inputType="phone"
+            android:backgroundTint="@color/yellow_500"
+            android:id="@+id/edt_phone"
+            android:hint="08xxxx"
+            android:layout_margin="8dp"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:enabled="false"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/yellow_500"
+            android:id="@+id/edt_job_title"
+            android:hint="mahasiswa"
+            android:layout_margin="8dp"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:enabled="false"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/yellow_500"
+            android:id="@+id/edt_gender"
+            android:hint="Pria"
+            android:layout_margin="8dp"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/yellow_500"
+            android:id="@+id/edt_address"
+            android:hint="Jl...."
+            android:layout_margin="8dp"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <com.orb.myapplication.customview.CsButton
+            app:setEnableBackground="@color/yellow_500"
+            app:setDisableBackground="@color/yellow_200"
+            android:id="@+id/btn_update"
+            android:layout_margin="8dp"
+            android:text="@string/txt_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_email_status"
+            android:textColor="#E91E63"
+            android:textAlignment="center"
+            android:text="@string/txt_email_is_not_verified"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

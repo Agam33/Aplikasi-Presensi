@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Aplikasi Absensi</string>
+    <string name="txt_daftar" tools:keep="@string/txt_daftar">Daftar</string>
+    <string name="txt_masuk" tools:keep="@string/txt_masuk">Masuk</string>
+    <string name="txt_masukan_email" tools:keep="@string/txt_masukan_email">Email</string>
+    <string name="txt_registration">Registrasi</string>
+    <string name="masukan_password" tools:keep="@string/masukan_password">Password</string>
+    <string name="txt_update_profile_success">Berhasil perbarui</string>
+    <string name="user_id">ID: %1s</string>
+    <string name="wrong_password_or_email">email atau password salah</string>
+    <string name="email_already_exist">email sudah ada</string>
+    <string name="password_length">password harus lebih dari 8 karakter</string>
+    <string name="empty_column">kolom harus di isi</string>
+    <string name="email_pattern">email harus di isi dengan benar</string>
+    <string name="confirm_password_not_equals_with_password">Konfirmasi password salah</string>
+    <string name="txt_email_is_not_verified" tools:keep="@string/txt_email_is_not_verified">Email belum diverifikasi</string>
+    <string name="txt_distance_message" tools:keep="@string/txt_distance_message">Jarak kamu ke tempat kerja</string>
+    <string name="txt_account" tools:keep="@string/txt_account">Akun</string>
+    <string name="txt_attendance" tools:keep="@string/txt_attendance">Absen</string>
+    <string name="txt_logout" tools:keep="@string/txt_logout">Keluar</string>
+    <string name="txt_greeting_message" tools:keep="@string/txt_greeting_message">Selamat Pagi</string>
+    <string name="txt_distance">%1s Meter</string>
+    <string name="txt_sample_email" tools:keep="@string/txt_sample_email">example@gmail.com</string>
+    <string name="txt_sample_name" tools:keep="@string/txt_sample_name"> - </string>
+    <string name="txt_sample_id" tools:keep="@string/txt_sample_id">ID: 00000</string>
+    <string name="txt_update" tools:keep="@string/txt_update">perbarui</string>
+    <string name="txt_status_in">Masuk : %1s</string>
+    <string name="txt_status_out">Pulang : %1s</string>
+    <string name="txt_delete_account" tools:keep="@string/txt_delete_account">Hapus Akun</string>
+    <string name="txt_pagi">Selamat Pagi</string>
+    <string name="txt_siang">Selamat Siang</string>
+    <string name="txt_sore">Selamat Sore</string>
+    <string name="txt_malam">Selamat Malam</string>
+    <string name="txt_warning">Peringatan</string>
+    <string name="txt_requires_location">Pastikan kamu mengaktifkan lokasi dihandphone mu.</string>
+    <string name="txt_requires_location_permission">Aplikasi membutuhkan izin lokasi.</string>
+    <string name="txt_warning_mock_location">Pastikan kamu menggunakan lokasi saat ini.</string>
+    <string name="txt_attendance_in" tools:keep="@string/txt_attendance_in">Masuk: 08.00 - 10.00</string>
+    <string name="txt_attendance_out" tools:keep="@string/txt_attendance_out">Pulang: 17.00 - 19.00</string>
+    <string name="txt_use_password" tools:keep="@string/txt_use_password">Gunakan password</string>
+    <string name="txt_active_biometric">Aktifkan sensor sidik jari</string>
+    <string name="txt_enrolled_biometric_msg">Jika kamu mengaktifkan sensor sidik jari, kamu tidak perlu menggunakan password :)</string>
+    <string name="txt_title_enrolled_biometric">Aktifkan sensor sidik jari</string>
+    <string name="txt_cancel">Batalkan</string>
+    <string name="txt_verification">Verifikasi</string>
+    <string name="txt_use_biometric">Gunakan sidik jari</string>
+    <string name="txt_anim_972_done">972-done.json</string>
+    <string name="txt_anim_radar_searching">radar-searching.json</string>
+    <string name="txt_no_biometric_hardware">Maaf, hp kamu tidak ada sensor sidik jari :(</string>
+    <string name="txt_not_allowed_attendance">Belum bisa untuk absen ya :)</string>
+
+</resources>
+
